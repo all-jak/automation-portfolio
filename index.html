@@ -210,7 +210,25 @@
                       <a href="#"><i class="lni-twitter-original"></i></a>
                     </li>
                     <li>
-                      <a href="#"><i class="lni-behance-original"></i></a>
+                      <a
+                        href="#"
+                        style="
+                          display: inline-flex;
+                          align-items: center;
+                          justify-content: center;
+                        "
+                        ><svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="20"
+                          height="20"
+                          fill="currentColor"
+                          class="bi bi-substack"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M15 3.604H1v1.891h14v-1.89ZM1 7.208V16l7-3.926L15 16V7.208zM15 0H1v1.89h14z"
+                          /></svg
+                      ></a>
                     </li>
                     <li>
                       <a href="#"><i class="lni-linkedin-original"></i></a>
@@ -714,32 +732,77 @@
           </div>
         </div>
         <!-- row -->
-        <div class="row align-items-center">
-          <div class="col-lg-6">
-            <div class="newsletter-image mt-30">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="newsletter-image mt-30 text-center">
               <img
                 src="assets/images/banner/automation.webp"
                 alt="Automation"
-                style="width: 100%; border-radius: 8px"
+                style="width: 100%; max-width: 600px; border-radius: 8px"
               />
             </div>
           </div>
-          <div class="col-lg-6">
-            <div class="newsletter-form mt-30">
-              <h5 style="font-size: 22px; color: #32333c; margin-bottom: 20px;">Newsletter</h5>
-              <form action="https://news.beehiiv.com/subscribe" method="post" target="_blank">
-                <input type="hidden" name="publication_id" value="3786c160-7d4d-4374-9f41-269c5a419164">
-                <div class="single-form" style="display: flex; gap: 0;">
-                  <input 
-                    type="email" 
-                    name="email" 
-                    placeholder="Enter your email" 
+        </div>
+        <!-- row -->
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="newsletter-form mt-50">
+              <h5
+                style="
+                  font-size: 22px;
+                  color: #32333c;
+                  margin-bottom: 20px;
+                  text-align: center;
+                "
+              >
+                Newsletter
+              </h5>
+              <form
+                action="https://news.beehiiv.com/subscribe"
+                method="post"
+                target="_blank"
+              >
+                <input
+                  type="hidden"
+                  name="publication_id"
+                  value="3786c160-7d4d-4374-9f41-269c5a419164"
+                />
+                <div
+                  class="single-form"
+                  style="
+                    display: flex;
+                    gap: 0;
+                    max-width: 600px;
+                    margin: 0 auto;
+                  "
+                >
+                  <input
+                    type="email"
+                    name="email"
+                    placeholder="Enter your email"
                     required
-                    style="flex: 1; border: 2px solid #754ef9; border-right: none; border-radius: 8px 0 0 8px; padding: 15px 20px; font-size: 16px;"
+                    style="
+                      flex: 1;
+                      border: 2px solid #754ef9;
+                      border-right: none;
+                      border-radius: 8px 0 0 8px;
+                      padding: 15px 20px;
+                      font-size: 16px;
+                    "
                   />
-                  <button 
-                    type="submit" 
-                    style="background-color: #754ef9; color: white; border: none; padding: 15px 30px; font-size: 16px; font-weight: 600; border-radius: 0 8px 8px 0; cursor: pointer; white-space: nowrap;"
+                  <button
+                    type="submit"
+                    style="
+                      background-color: #754ef9;
+                      color: white;
+                      border: none;
+                      padding: 15px 30px;
+                      font-size: 16px;
+                      font-weight: 600;
+                      border-radius: 0 8px 8px 0;
+                      cursor: pointer;
+                      white-space: nowrap;
+                    "
                   >
                     Subscribe
                   </button>
@@ -773,46 +836,6 @@
           </div>
         </div>
         <!-- row -->
-        <div class="row justify-content-center">
-          <div class="col-lg-4 col-md-6 col-sm-7">
-            <div class="contact-box text-center mt-30">
-              <div class="contact-icon">
-                <i class="lni-map-marker"></i>
-              </div>
-              <div class="contact-content">
-                <h6 class="contact-title">Address</h6>
-                <p>123 Stree New York City , United States Of America 750</p>
-              </div>
-            </div>
-            <!-- contact box -->
-          </div>
-          <div class="col-lg-4 col-md-6 col-sm-7">
-            <div class="contact-box text-center mt-30">
-              <div class="contact-icon">
-                <i class="lni-phone"></i>
-              </div>
-              <div class="contact-content">
-                <h6 class="contact-title">Phone</h6>
-                <p>+931 2222 5555</p>
-                <p>+547 5554 6663</p>
-              </div>
-            </div>
-            <!-- contact box -->
-          </div>
-          <div class="col-lg-4 col-md-6 col-sm-7">
-            <div class="contact-box text-center mt-30">
-              <div class="contact-icon">
-                <i class="lni-envelope"></i>
-              </div>
-              <div class="contact-content">
-                <h6 class="contact-title">Email</h6>
-                <p>support@yourmail.com</p>
-                <p>info@helpline.com</p>
-              </div>
-            </div>
-            <!-- contact box -->
-          </div>
-        </div>
       </div>
       <!-- container -->
     </section>
@@ -843,7 +866,26 @@
                     <a href="#"><i class="lni-twitter-original"></i></a>
                   </li>
                   <li>
-                    <a href="#"><i class="lni-pinterest"></i></a>
+                    <a
+                      href="#"
+                      style="
+                        display: inline-flex;
+                        align-items: center;
+                        justify-content: center;
+                      "
+                      ><svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="30"
+                        height="30"
+                        fill="currentColor"
+                        class="bi bi-substack"
+                        viewBox="0 0 16 16"
+                        style="vertical-align: middle"
+                      >
+                        <path
+                          d="M15 3.604H1v1.891h14v-1.89ZM1 7.208V16l7-3.926L15 16V7.208zM15 0H1v1.89h14z"
+                        /></svg
+                    ></a>
                   </li>
                   <li>
                     <a href="#"><i class="lni-linkedin-original"></i></a>
