@@ -1,1 +1,1 @@
-﻿Bootstrap, HTML5, SCSS
+﻿Bootstrap, HTML5, CSS3
