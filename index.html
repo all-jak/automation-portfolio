@@ -703,10 +703,11 @@
         <div class="row justify-content-center">
           <div class="col-lg-8">
             <div class="section-title text-center pb-25">
-              <h2 class="title">Newsletter</h2>
+              <h2 class="title">From The Blog</h2>
               <p>
-                Subscribe to stay updated with the latest automation tips and
-                insights.
+                Nunc id dui at sapien faucibus fermentum ut vel diam. Nullam
+                tempus, nunc id efficitur sagittis, urna est ultricies eros, ac
+                porta sem turpis quis leo.
               </p>
             </div>
             <!-- section title -->
@@ -725,19 +726,25 @@
           </div>
           <div class="col-lg-6">
             <div class="newsletter-form mt-30">
-              <iframe
-                src="https://embeds.beehiiv.com/3786c160-7d4d-4374-9f41-269c5a419164?slim=true"
-                data-test-id="beehiiv-embed"
-                height="320"
-                frameborder="0"
-                scrolling="no"
-                style="
-                  margin: 0;
-                  border-radius: 0px !important;
-                  background-color: transparent;
-                  width: 100%;
-                "
-              ></iframe>
+              <h5 style="font-size: 22px; color: #32333c; margin-bottom: 20px;">Newsletter</h5>
+              <form action="https://news.beehiiv.com/subscribe" method="post" target="_blank">
+                <input type="hidden" name="publication_id" value="3786c160-7d4d-4374-9f41-269c5a419164">
+                <div class="single-form" style="display: flex; gap: 0;">
+                  <input 
+                    type="email" 
+                    name="email" 
+                    placeholder="Enter your email" 
+                    required
+                    style="flex: 1; border: 2px solid #754ef9; border-right: none; border-radius: 8px 0 0 8px; padding: 15px 20px; font-size: 16px;"
+                  />
+                  <button 
+                    type="submit" 
+                    style="background-color: #754ef9; color: white; border: none; padding: 15px 30px; font-size: 16px; font-weight: 600; border-radius: 0 8px 8px 0; cursor: pointer; white-space: nowrap;"
+                  >
+                    Subscribe
+                  </button>
+                </div>
+              </form>
             </div>
           </div>
         </div>
